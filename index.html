@@ -1,18 +1,106 @@
-<html>
-<head>
-<link rel="icon" type="image/x-icon" src="disp.png">
-<title>We are very sorry</title>
+<link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+ <link rel="icon" type="image/x-icon" href="disp.png">
+<title>TiBiTs - The game that is currently under construction!</title>
 <style>
-  h1 {
-     font-family: arial; 
-  }
-  body {
-    color: white;
-    background-color: black;
-  }
-</style>
-</head>
+    /*
+     This code was taken from W3Schools (Pill Navagation), and a CodePen (see at: https://codepen.io/P1N2O/pen/pyBNzX)
+    */
+body {
+	background: linear-gradient(-45deg, #34413c, #74032e, #497770, #023c49);
+	background-size: 400% 400%;
+	animation: gradient 30s ease infinite;
+	height: 100%;
+    font-family: 'Assistant';
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+    .pill-nav {
+        padding-top: 0px;
+       /* overflow: hidden; */
+    }
+    .pill-nav a {
+     display: inline-block;
+      color: black;
+      text-align: center;
+      padding: 17px;
+      text-decoration: none;
+      font-size: 17px;
+      border-radius: 10px;
+    }
+    
+    .pill-nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .pill-nav a.active {
+      background-color: rgb(26, 88, 65);
+      color: rgb(255, 255, 255);
+    }
+    .pill-nav {
+        background-color: rgba(255, 255, 255, 0.763);
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-top-right-radius: 14px;
+        border-top-left-radius: 14px;
+
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .block {
+        padding-bottom: 20px;
+    }
+    .gameArea {
+        border-bottom-left-radius: 14px;
+        border-bottom-right-radius: 14px;
+        background-color: rgba(0, 0, 0, 0.412);
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 80%;
+    }
+    .content {
+        display: inline-block;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 90%;
+
+    }
+    </style>
+    </head>
+
+    <div class="block"></div>
+    <div class="pill-nav">
+        <a href="#noAllow">Home</a>
+        <a class="active" href="https://tibits-games.github.io/"> TiBiTs</a>
+        <a href="#noAllow">How it works?</a>
+        <a href="#noAllow">About</a>
+    </div>
 <body>
-<h1>Site is under construction</h1>
+<div class="gameArea">
+<div class="content">
+<!--Game and content go here-->    
+<h1>:( Sorry </h1>
+<p>The site is currently under construction.</p>
+<hr>
+
+
+
+
+</div>
+<p style="padding-left: 17px; color: white;">(c) TiBiTs 2024 | Please copy code as you wish but please do not make a clone</p>
+</div>
+
+    
 </body>
-</html>
